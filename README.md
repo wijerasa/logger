@@ -10,6 +10,24 @@ This script collects system logs saved in `/var/log/syslog` and Anti-Virus logs 
 pip install fabric
 
 ```
+## How to run the logger:
+
+```bash
+
+## Scripts
+
+1. fabfile.py - Script that runs the logger
+
+## Input
+
+2. Name of the person runing this script: - provide your name
+3. Data on this machine is backed up? Yes/No - Mention whether you have backed up the data or not (**Answer: Yes/No**)
+4. Do you want to update system now? Yes/No - You have the choice to run updates and patches now. If you want to continue type "Yes", otherwise. type "No"
+
+
+### Step 1:
+
+Clone the git repository to your local server
 
 ## Clone `git` repository to your local machine
 
@@ -19,7 +37,7 @@ git clone https://github.com/wijerasa/logger.git
 ```
 
 
-## How to run the logger:
+
 
 ```bash
 
