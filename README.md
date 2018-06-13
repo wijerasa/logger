@@ -14,12 +14,12 @@ pip install fabric
 ## Clone `git` repository to your local machine
 
 ```bash
-git clone 
+git clone https://github.com/wijerasa/logger.git
 
 ```
 
 
-## What this does:
+## How to run the logger:
 
 ```bash
 
