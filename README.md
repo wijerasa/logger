@@ -23,7 +23,7 @@ Script will ask the following set of questions before it collects the informatio
 
 2. **Name of the person runing this script:** - provide your name
 3. **Data on this machine is backed up? Yes\/No** - Mention whether you have backed up the data or not (**Answer: Yes/No**)
-4. **Do you want to update system now? Yes/No** - You have the choice to run updates and patches now. If you want to continue type **"Yes**, otherwise. type **"No**
+4. **Do you want to update system now? Yes/No** - You have the choice to run updates and patches now. If you want to continue type **"Yes"**, otherwise. type **"No"**
 
 ### Outputs
 
