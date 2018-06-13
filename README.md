@@ -27,12 +27,12 @@ Script will ask the following set of questions before it collects the informatio
 
 ### Outputs
 
-5. Script will creat a compressed-archived file like this: samwilly-fakecompany-2018-06-12-Data_bk_Yes.tar.gz
+5. Script will creat a compressed-archived file like this: `samwilly-fakecompany-2018-06-12-Data_bk_Yes.tar.gz`
 
-- samwilly - Name of the person who ran the script
-- fakecompany - Machine name
-- 2018-06-12 - Date of this file created
-- Data_bk_Yes - Data is backed up or not. **Yes** indicates data has been backed up and **No** indicates data has not been backed up
+- *samwilly* - Name of the person who ran the script
+- *fakecompany* - Machine name
+- *2018-06-12* - Date of this file created
+- *Data_bk_Yes* - Data is backed up or not. **Yes** indicates data has been backed up and **No** indicates data has not been backed up
 
 ### Step 1:
 
