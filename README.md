@@ -32,7 +32,7 @@ Script will ask the following set of questions before it collects the informatio
 - *samwilly* - Name of the person who ran the script
 - *fakecompany* - Machine name
 - *2018-06-12* - Date of this file created
-- *Data_bk_Yes* - Data is backed up or not. **Yes** indicates data has been backed up and **No** indicates data has not been backed up
+- *Data_bk_Yes* - Data is backed up or not. **Yes:** indicates data has been backed up and **No:** indicates data has not been backed up
 
 ### Step 1:
 
@@ -55,18 +55,4 @@ fab check_status
 
 ### Step 3:
 
-Execute,
-
-```bash
-python download_fastq.py
-```
-
-This will create the "Downloads_Fastq" folder
-
-### Step 4:
-
-```bash
-python check_sums.py
-```
-
-This will create "Checksum_Results.txt" file
+Upload the final compressed-archived file (`samwilly-fakecompany-2018-06-12-Data_bk_Yes.tar.gz`) to your Box folder
