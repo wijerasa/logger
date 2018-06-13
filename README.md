@@ -15,24 +15,24 @@ pip install fabric
 
 ### Scripts
 
-1. fabfile.py - Script that runs the logger
+1. **fabfile.py** - Script that runs the logger
 
 ### Inputs
 
 Script will ask the following set of questions before it collects the information.
 
-2. Name of the person runing this script: - provide your name
-3. Data on this machine is backed up? Yes/No - Mention whether you have backed up the data or not (**Answer: Yes/No**)
-4. Do you want to update system now? Yes/No - You have the choice to run updates and patches now. If you want to continue type **"Yes", otherwise. type **"No"
+2. **Name of the person runing this script:** - provide your name
+3. **Data on this machine is backed up? Yes/No** - Mention whether you have backed up the data or not (**Answer: Yes/No**)
+4. **Do you want to update system now? Yes/No** - You have the choice to run updates and patches now. If you want to continue type **"Yes", otherwise. type **"No"
 
 ### Outputs
 
 5. Script will creat a compressed-archived file like this: samwilly-fakecompany-2018-06-12-Data_bk_Yes.tar.gz
 
-samwilly - Name of the person who ran the script
-fakecompany - Machine name
-2018-06-12 - Date of this file created
-Data_bk_Yes - Data is backed up or not. **Yes** indicates data has been backed up and **No** indicates data has not been backed up
+- samwilly - Name of the person who ran the script
+- fakecompany - Machine name
+- 2018-06-12 - Date of this file created
+- Data_bk_Yes - Data is backed up or not. **Yes** indicates data has been backed up and **No** indicates data has not been backed up
 
 ### Step 1:
 
