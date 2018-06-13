@@ -46,13 +46,14 @@ cd logger
 
 ### Step 2:
 
-Run the following code.
+Run the following code,
 
 ```bash
 fab check_status
 
 ```
 
+This will collect system-logs and Anti-Virus logs and archived them to one file.
 ### Step 3:
 
 Upload the final compressed-archived file (`samwilly-fakecompany-2018-06-12-Data_bk_Yes.tar.gz`) to your Box folder
