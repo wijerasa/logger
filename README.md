@@ -53,7 +53,7 @@ fab check_status
 
 ```
 
-This will collect system-logs and Anti-Virus logs and archived them to one file.
+This will collect system-logs and Anti-Virus logs and archive them to one file.
 ### Step 3:
 
 Upload the final compressed-archived file (`samwilly-fakecompany-2018-06-12-Data_bk_Yes.tar.gz`) to your Box folder
