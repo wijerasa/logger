@@ -55,6 +55,10 @@ def check_status():
 
     if databackups:
         databackups == "No"
+    elif databackups == "Yes":
+        device_type=raw_input("Indicate the backup device type (portable HDD, DVD, etc")
+        place_bk_kept=raw_input("Indicate where the backup device kept if not attached to the computer and the protection in place to safeguard the device")
+        logging.info('Backup device type: {0} and place backup device kept {1}'.format(device_type, place_bk_kept))
     # This section will check Anti-virus status and copy log files to ANTI-Virus-Logs.log
     logging.info('Start Anti-Virus On-access Scan Status Check Logging')
     on_access_status_reboot=local('sudo /opt/sophos-av/bin/savconfig query EnableOnStart', capture=True)
